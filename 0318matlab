@@ -1,4 +1,4 @@
-
+% 1차 Taylor 전개식이용
 % 0318 Euler's method
 clear all; clc;                   % clc 명령 창 지우기
 f = inline('1 - 2*t + 5*y','t','y')
@@ -46,3 +46,22 @@ figure(1) ; clf; hold on; plot(t10,y10,'ko-')         % clf : 그래프 지우�
 plot(t20,y20,'rd-')
 plot(t100,y100,'b*-')
 
+%2차 Taylor 전개식 이용
+
+clear all; clc;  
+f = inline('1 - 2*t + 5*y','t','y')
+fp = inline('-2 + 5 * (1 - 2*t + 5*y)','t','y')
+a = 0; b = 1;
+
+n = 10; t = linspace(a,b,n);     % (linear space) linspace(시작값,끝값,나눌칸수)
+h = t(2)-t(1); % space step size
+
+y(1) = 1; % initail value y(0) x   y(1) o
+yy(1) = 1;
+for i = 1:n-1
+    y(i+1) = y(i) + f(t(i),y(i))*h ;
+    yy(i+1) = yy(i) + f(t(i),yy(i))*h + fp(t(i), yy(i))*h^2/2;
+end
+
+figure(1) ; clf; hold on; plot(t,y,'ko-')
+plot(t,yy,'rd-')
