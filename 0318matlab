@@ -65,3 +65,6 @@ end
 
 figure(1) ; clf; hold on; plot(t,y,'ko-')
 plot(t,yy,'rd-')
+
+
+과제 : 예제 풀이, 워드 파일로 정리 yp = 2xy , 0<=x<=1 , y(0) = 1
