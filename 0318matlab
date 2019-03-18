@@ -1,0 +1,14 @@
+% 0318 Euler's method
+clear all; clc;  % clc 명령 창 지우기
+f = inline('1 - 2*t + 5*y','t','y')
+a = 0; b = 1;
+n = 10; t = linspace(a,b,n);     % (linear space) linspace(시작값,끝값,나눌칸수)
+h = t(2)-t(1); % space step size
+
+y(1) = 1; % initail value y(0) x   y(1) o
+
+for i = 1:n-1
+    y(i+1) = y(i) + f(t(i),y(i))*h 
+end
+
+figure(1) ; hold on; plot(t,y,'ko-')
