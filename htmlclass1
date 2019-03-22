@@ -1,0 +1,76 @@
+size : 글자 크기 (1~7, 기본값은 3)
+color : 글자 색상 
+face : 글꼴
+<HR> : 수평선 그리기
+<div> : 구역 구분 
+주석 <!-- -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <h1>실습</h1>
+  
+  <a href = "https://www.google.com/"><img src = "data:image/png;base64,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"</a>
+  <a href = "https://www.naver.com/">네이버로 이동</a>
+    <br><s>s태그 취소선</s> <sub>아래첨자</sub> <sup>윗첨자</sup> <b>굵게</b>
+    <br>
+    <li>log <sub>10</sub> x = 0.4343 log <sub>e</sub> x</li>
+    <br><br>
+    
+    <hr color = "#FF0000" width = "70%" size = "10" noshadealign="left"><br>
+ 
+ <pre>    <!-- pre태그 -->
+     
+     공백이나 줄바꿈을 자유롭게 
+                     편집내용을
+                           출력
+                           
+     차수  국어   영어   수학
+     ------------------------
+     1차    A       A      B
+     2차    B       A      A
+     3차    A       A      A
+ </pre>
+    
+    <hr>
+      hr 태그    
+    <hr>
+    
+ <p style="background : black" id = "hi">개미가 개미가 엄마 심부름 간다.</p>
+  <font size="5" color="blue">폰트tag</font><br>
+  <font face = "바탕체">바탕체</font><br>
+  <font face = "굴림체">굴림체</font><br>
+  <font face = "궁서체">궁서체</font><br>
+  <font face = "바탕체">바탕체</font><br><br><br>
+  <marquee behavior = "scroll" direction="right" id="flow">문자를 흐르게합니다</marquee><br><br>
+    
+  <p id = "view">id 속성 확인</p>
+    <center>가운데 정렬</center>
+    <p id = "view">id 속성 확인</p>
+  
+  <font size = 1> font size = 1 </font> 기본크기 <br>
+  <font size = 2> font size = 2 </font> 기본크기 <br>
+  <font size = 3> font size = 3 </font> 기본크기 <br>
+  <font size = 4> font size = 4 </font> 기본크기 <br>
+  <font size = 5> font size = 5 </font> 기본크기 <br>
+  <font size = 6> font size = 6 </font> 기본크기 <br>
+  <font size = 7> font size = 7 </font> 기본크기 <br>
+  
+  <p><h1>t1</h1></p>
+  <p><h2>t2</h2></p>
+<p><h3>t3</h3></p>
+<p><h4>t4</h4></p>
+<p><h5>t5</h5></p>
+<p><h6>t6</h6></p>
+<p>
+  <span style = "font-size:20pt; color:blue;"> font size = #pt size</span><p>
+</p>
+    <hr color = "#FF0000" width = "50%" size = "10" noshadealign="left"><br><br><br>
+
+</body>
+</html>
