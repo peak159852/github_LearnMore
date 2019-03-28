@@ -1,0 +1,15 @@
+% 2nd Runge-Kutta method
+clear all; clc; clf;
+n = 11; % number of points
+t = linspace(0, 1, n); % discrete domain
+h = t(2) - t(1);
+y(1) = 2; % initial value
+f = inline('1-2*t+5*t','t','y');
+
+A = 0.5; B = 0.5; P = 1; Q = 1;
+for i = 1:n-1
+    y(i+1) = y(i) + A*h*f(t(i), y(i)) ...
+       + B*h*f(t(i) + P*h, y(i) + Q*h*f(t(i),y(i)));
+end
+exact = 53/25*exp(5*t) + 2/5*t - 3/25;
+
