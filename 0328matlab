@@ -6,7 +6,8 @@ h = t(2) - t(1);
 y(1) = 2; % initial value
 f = inline('1-2*t+5*y','t','y');
 
-A = 0.5; B = 0.5; P = 1; Q = 1;
+% A = 0.5; B = 0.5; P = 1; Q = 1;   modified Euler
+A = 0; B = 1-A; P = B/2; Q = B/2; % midpoint method
 for i = 1:n-1
     y(i+1) = y(i) + A*h*f(t(i),y(i)) ...
        + B*h*f(t(i)+P*h, y(i) + Q*h*f(t(i),y(i)));
