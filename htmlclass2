@@ -10,70 +10,97 @@
     <h1 align='center'>0329</h1>
     <span class = "s1">201313622 이재균</span><br>
   </div>
+ 
   <ul class = "ulname"> 순서없는 리스트
-    <li> 항목1 
-    <li> 항목2 
+    <li> 항목1 </li>
+    <li> 항목2 </li>
     <ul>
-      <li>항목2-1
-      <li>항목2-2
-      <li>항목2-N
+      <li>항목2-1 </li>
+      <li>항목2-2 </li>
+      <li>항목2-N </li>
     </ul>
     <li> 항목3
       <ul>
-      <li>항목3-1
-      <li>항목3-2
-      <li>항목3-3
-      <li>항목3-N
+      <li>항목3-1 </li>
+      <li>항목3-2 </li>
+      <li>항목3-3 </li>
+      <li>항목3-N </li>
     </ul>
     <li>항목N
   </ul>
-  
   <ol class = "olname"> 순서있는 리스트
-    <li> 줄 바꿈 및 문단구분 
-    <li> 문자의 형태 및 크기 
+    <li> 줄 바꿈 및 문단구분 </li>
+    <li> 문자의 형태 및 크기 </li>
       <ol>
-        <li> 크기1
-        <li> 크기2
+        <li> 크기1 </li>
+        <li> 크기2 </li>
       </ol>
-    <li> Universal Resource Locator - URL 
-    <li> ANCHOR with URL 
-    <li>문서내에서의 이미지 
+    <li> Universal Resource Locator - URL </li>
+    <li> ANCHOR with URL </li>
+    <li>문서내에서의 이미지 </li>
       <ol>
-        <li> 이미지1
-        <li> 이미지2
-        <li> 이미지3
+        <li> 이미지1 </li>
+        <li> 이미지2 </li>
+        <li> 이미지3 </li>
       </ol>
   </ol>
+
   <div class = "ol2">
     <ol start = 11>리스트이름
-      <li> 항목 1
-      <li> 항목 2
+      <li> 항목 1 </li>
+      <li> 항목 2 </li>
         <ul>
-          <li> 항목2-1
-          <li> 항목2-2
-          <li> 항목2-N
+          <li> 항목2-1 </li>
+          <li> 항목2-2 </li>
+          <li> 항목2-N </li>
         </ul>
       <li> 항목 3
         <ul>
-          <li> 항목3-1
-          <li> 항목3-2
-          <li> 항목3-N
+          <li> 항목3-1 </li>
+          <li> 항목3-2 </li>
+          <li> 항목3-N </li>
         </ul>
-      <li> 항목 4
+      <li> 항목 4 </li>
     </ol>
   </div>
   <dl class='dl'>
-    <dt> 제목1
-    <dd> 제목 1 설명
-    <dt> 제목 2
-    <dd> 제목 2 설명-1
-    <dd> 제목 2 설명-2
-    <dd> 제목 2 설명-3
-    <dt> 제목 3
-    <dd> 제목 3 설명
+    <dt> 제목1 </dt>
+    <dd> 제목 1 설명 </dd>
+    <dt> 제목 2 </dt>
+    <dd> 제목 2 설명-1 </dd>
+    <dd> 제목 2 설명-2 </dd>
+    <dd> 제목 2 설명-3 </dd>
+    <dt> 제목 3 </dt>
+    <dd> 제목 3 설명 </dd>
   </dl>
 
-  <footer align='center'><b>웹과 인터넷 활용 및 실습</footer>
+  <table border = 2 bgcolor = green>
+    <caption align = top>시간표</caption>
+    <tr bgcolor = yellow align = center>
+      <td width = "110"><b>월</b></td>
+      <td width = "110"><b>화</b></td>
+      <td width = "110"><b>수</b></td>
+      <td width = "110"><b>목</b></td>
+      <td width = "110"><b>금</b></td>
+    </tr>
+     <tr align=center>
+      <td width="110"><b></b></td>
+      <td width="110"><b></b></td>
+      <td width="110"><b>.</b></td>
+      <td width="110"><b></b></td>
+      <td width="110"><b></b></td>
+    </tr>
+  </table><br>
+  <table border=2 align=center>
+    <tr>
+      <td> 001 </td><td> 002 </td>
+    </tr>
+    <tr>
+      <td> 003 </td><td> 004 </td>
+    </tr>
+  </table><br>
+  
+  <footer align = 'center'>웹과 인터넷 활용 및 실습</footer>
 </body>
 </html>
 
