@@ -1,4 +1,5 @@
- <table class = "t1" border = 2 >
+공백 입력 : &nbsp
+<table class = "t1" border = 2 >
     <caption align = top>table1</caption>
     <tr bgcolor = yellow align = center>
       <td><b>001</b></td>
