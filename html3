@@ -1,0 +1,45 @@
+ <table class = "t1" border = 2 >
+    <caption align = top>table1</caption>
+    <tr bgcolor = yellow align = center>
+      <td><b>001</b></td>
+      <td><b>002</b></td>
+      <td><b>003</b></td>
+    </tr>
+     <tr bgcolor = red align = center>
+      <td><b>004</b></td>
+      <td bgcolor = white><b>005</b></td>
+      <td><b>006</b></td>
+    </tr>
+    <tr bgcolor = blue align = center>
+      <td><b>007</b></td>
+      <td><b>008</b></td>
+      <td><b>009</b></td>
+    </tr>
+    <tr bgcolor = green align = center>
+      <td><b>010</b></td>
+      <td><b>020</b></td>
+      <td><b>030</b></td>
+    </tr>
+  </table>
+ 
+  <table class = "t2" border = 2 >
+    <caption align = top>table2</caption>
+    <tr bgcolor = yellow align = center>
+      <td colspan = 2><b>001</b></td>
+      <td><b>002</b></td>
+    </tr>
+     <tr bgcolor = red align = center>
+      <td><b>004</b></td>
+      <td bgcolor = white><b>005</b></td>
+      <td><b>006</b></td>
+    </tr>
+    <tr bgcolor = blue align = center>
+      <td><b>007</b></td>
+      <td rowspan = 2><b>008</b></td>
+      <td><b>009</b></td>
+    </tr>
+    <tr bgcolor = green align = center>
+      <td><b>010</b></td>      
+      <td><b>030</b></td>
+    </tr>
+  </table>
