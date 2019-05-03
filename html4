@@ -24,8 +24,33 @@
 </body>
 <html>
 
-
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 vlink 클린된 링크 색상
 alink 클릭하는동안 색상
 target = _blank 새창으로 열기 
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+<html>
+<head> </head> 
+<body> 
+<img src = "./image/map.gif" usemap="#menu" border = 0>
+	
+<map name = "menu">
+	<area shape = "rect" coords = "0,0,75,40" href = "plus.html">
+	<area shape = "rect" coords = "76,0,140,40" href = "blog.html">
+	<area shape = "rect" coords = "141,0,203,40" href = "cafe.html">
+</map> <br> <br>
+
+<img src = "./image/pororo.jpg" border = "0" usemap="#map">
+<map name = "map">
+	<area shape = "rect" coords = "14,103,207,277" href = "rect.html">
+	<area shape = "circle" coords = "0,0,75,40" href = "circle.html">
+	  
+</body>
+<html>
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
