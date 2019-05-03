@@ -1,0 +1,31 @@
+
+<html>
+<head>
+<title> New Document </title>
+ </head> 
+<body 
+	text = blue
+	bgcolor = ffc000
+	link = yellow
+	vlink = white
+	alink = red           
+	background=./image/background.jpg
+> 
+
+ 안녕하세요? 날씨가 따뜻합니다. <br>
+<a href = http://www.kangwon.ac.kr> 강원대학교 </a> <br>
+<a href = http://www.naver.com> 네이버 </a><br>
+<a href = http://www.daum.com> 다음 </a><br>
+
+<a href = http://www.kangwon.ac.kr target=_blank>
+<img src=./image/pororo.jpg border=1>
+</a>
+
+</body>
+<html>
+
+
+
+vlink 클린된 링크 색상
+alink 클릭하는동안 색상
+target = _blank 새창으로 열기 
