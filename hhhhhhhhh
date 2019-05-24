@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS</title>
+  <style type = "text/css">
+    b.blue {
+      color:blue;
+      font-size:13px;
+    }
+    b.red {
+      color:red;
+      font-size:35px;
+    }
+    tr.left {
+      text-align:left;
+    }
+    tr.center {
+      text-align:center;
+    }
+    tr.right {
+      text-align:right;
+    }
+  </style>
+</head>
+<body>
+  
+  <b style = "colore:red;text-align:center" class = blue>학교종</b><br>
+  <br>
+  
+  <b style = "colore:red;text-align:center" class = red>학교종</b>
+  
+  <p align = center><font color = red><b>학교종</b></font></p>
+  
+  <p style= "color:red;text-align:center">학교종</p>
+  
+  <div style = "color:red;text-align:center">학교종</div>
+
+  <br><br>
+  
+  학교종이 땡땡땡 <b>어서모이자</b>
+  
+  <br><br>
+  
+  선생님이 우리를 <b>기다리신다.</b>
+  
+  <br><br><br><br>
+  
+  <table cellspacing = 4 cellpadding = 10 width = 600 border = 1>
+    <tr class = left height = 50 bgcolor = "yellow">
+      <td>월요일</td><td>화요일</td><td>수요일</td>
+    </tr>
+    <tr class = center>
+      <td>정장</td><td>간편복</td><td>체육복</td>
+    </tr>
+    <tr class = right>
+      <td>1</td><td>2</td><td>3</td>
+    </tr>
+  </table>
+  
+</body>
+</html>
